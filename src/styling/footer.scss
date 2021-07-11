@@ -1,0 +1,84 @@
+@import './mixins.scss';
+
+.footer{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    color: #fff;
+    background-color: #000000;
+    padding: 2em 0;
+
+    &-links{
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-evenly;
+
+        &-container1{
+            display: flex;
+            flex-flow: column nowrap;
+            justify-content: space-between;
+        }
+
+        &-socials{
+            display: flex;
+            flex-flow: row nowrap;
+            li{
+                margin: 0 .5em;
+                font-size: .875em;
+            }
+        }
+
+        div{
+            padding: 0 4em;
+            ul{
+                list-style-type: none;
+
+                li{
+                    padding: .50em 0;
+                }
+            }
+        }
+    }
+
+    &-info{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        text-align: right;
+
+        &-arrow{
+            display: flex;
+            flex-flow: row nowrap;
+            font-size: 0.875em;
+            div{
+                padding: 0 1em;
+                h4{
+                    font-size: .875em;
+                }
+            }
+        }
+
+        .copyright{
+            color: #696969;
+            h4{
+                font-size: .875em;
+            }
+        }
+    }
+
+    @include breakpoint-down(small){
+        flex-flow: column nowrap;
+        padding: 0;
+        text-align: center;
+        align-items: center;
+        &-links{
+            flex-flow: column nowrap;
+            justify-content: flex-start;
+        }
+
+        &-info{
+            text-align: center;
+            padding: 2em 0;
+        }
+    }
+}

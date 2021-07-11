@@ -1,0 +1,17 @@
+.header-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1.3em 0;
+
+    .navigation ul{
+        list-style-type: none;
+        display: flex;
+        flex-flow: row nowrap;
+        
+        li{
+            padding: 0 2em;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@import './mixins.scss';
+
+.container5{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    padding: 8em 5em;
+
+    .icon{
+        padding: 0 0 2em 0;
+    }
+
+    .info{
+        text-align: center;
+        padding: 0 1em;
+
+        h2{
+            font-size: 1em;
+            padding: 0 0 1em 0;
+        }
+        p{
+            font-size: 0.8em;
+            padding: 0 7em;
+            color: #808080;
+        }
+    }
+
+
+    @include breakpoint-down(medium){
+        flex-flow: column nowrap;
+        margin: 0 2em;
+        .icon{
+            padding: 3em 0 2em 0; 
+        }
+    }
+    
+    @include breakpoint-down(small){
+        padding: 0 0 1em 0;
+        margin: 0 0;
+
+        .info{
+            padding: 0;
+        }
+        p{
+            padding: 0 .5em;
+        }
+    }
+
+}
