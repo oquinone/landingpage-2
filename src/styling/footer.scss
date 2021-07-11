@@ -11,7 +11,7 @@
     &-links{
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-evenly;
+        justify-content: center;
 
         &-container1{
             display: flex;
@@ -29,12 +29,14 @@
         }
 
         div{
-            padding: 0 4em;
+            padding: 0 2em;
             ul{
                 list-style-type: none;
 
                 li{
-                    padding: .50em 0;
+                    padding: .40em 0;
+                    font-size: .80em;
+                    cursor: pointer;
                 }
             }
         }
@@ -49,7 +51,9 @@
         &-arrow{
             display: flex;
             flex-flow: row nowrap;
+            align-items: baseline;
             font-size: 0.875em;
+            padding: 0 0 .50em 0;
             div{
                 padding: 0 1em;
                 h4{
