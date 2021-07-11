@@ -38,7 +38,7 @@ export const Footer = () => {
                     <div><RightArrow/></div>
                 </span>
                 <div className="copyright">
-                    <h4>Copright Omar Quinones</h4>
+                    <h4>Copyright Omar Quinones</h4>
                     </div>
             </div>
         </footer>
