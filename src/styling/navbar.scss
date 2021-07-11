@@ -1,17 +1,45 @@
-.header-container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 1.3em 0;
+@import '../styling/mixins.scss';
 
-    .navigation ul{
-        list-style-type: none;
+.header-container{
+    &-site{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 1.3em 0;
+
+        .navigation ul{
+            list-style-type: none;
+            display: flex;
+            flex-flow: row nowrap;
+            
+            li{
+                padding: 0 2em;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &-mobile{
         display: flex;
         flex-flow: row nowrap;
-        
-        li{
-            padding: 0 2em;
+        justify-content: space-around;
+        align-items: center;
+        padding: 1.7em 0;
+
+        #dropdown{
+            font-size: 1em;
+        }
+    }
+
+    @include breakpoint-down(small){
+        &-site{
+            display: none;
+        }
+    }
+    @include breakpoint-up(medium){
+        &-mobile{
+            display: none;
         }
     }
 }
