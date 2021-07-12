@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/landingpage-2/static/css/main.ff4a0530.chunk.css",
+    "main.css": "/landingpage-2/static/css/main.93257efd.chunk.css",
     "main.js": "/landingpage-2/static/js/main.0d11ef75.chunk.js",
     "main.js.map": "/landingpage-2/static/js/main.0d11ef75.chunk.js.map",
     "runtime-main.js": "/landingpage-2/static/js/runtime-main.57e7bca0.js",
@@ -8,7 +8,7 @@
     "static/js/2.d179fcb2.chunk.js": "/landingpage-2/static/js/2.d179fcb2.chunk.js",
     "static/js/2.d179fcb2.chunk.js.map": "/landingpage-2/static/js/2.d179fcb2.chunk.js.map",
     "index.html": "/landingpage-2/index.html",
-    "static/css/main.ff4a0530.chunk.css.map": "/landingpage-2/static/css/main.ff4a0530.chunk.css.map",
+    "static/css/main.93257efd.chunk.css.map": "/landingpage-2/static/css/main.93257efd.chunk.css.map",
     "static/js/2.d179fcb2.chunk.js.LICENSE.txt": "/landingpage-2/static/js/2.d179fcb2.chunk.js.LICENSE.txt",
     "static/media/architecturals.f5bc4ce6.jpeg": "/landingpage-2/static/media/architecturals.f5bc4ce6.jpeg",
     "static/media/arrow.53f95215.svg": "/landingpage-2/static/media/arrow.53f95215.svg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.57e7bca0.js",
     "static/js/2.d179fcb2.chunk.js",
-    "static/css/main.ff4a0530.chunk.css",
+    "static/css/main.93257efd.chunk.css",
     "static/js/main.0d11ef75.chunk.js"
   ]
 }
