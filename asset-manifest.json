@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/landingpage-2/static/css/main.3148c723.chunk.css",
-    "main.js": "/landingpage-2/static/js/main.89f5036f.chunk.js",
-    "main.js.map": "/landingpage-2/static/js/main.89f5036f.chunk.js.map",
+    "main.css": "/landingpage-2/static/css/main.ff4a0530.chunk.css",
+    "main.js": "/landingpage-2/static/js/main.0d11ef75.chunk.js",
+    "main.js.map": "/landingpage-2/static/js/main.0d11ef75.chunk.js.map",
     "runtime-main.js": "/landingpage-2/static/js/runtime-main.57e7bca0.js",
     "runtime-main.js.map": "/landingpage-2/static/js/runtime-main.57e7bca0.js.map",
     "static/js/2.d179fcb2.chunk.js": "/landingpage-2/static/js/2.d179fcb2.chunk.js",
     "static/js/2.d179fcb2.chunk.js.map": "/landingpage-2/static/js/2.d179fcb2.chunk.js.map",
     "index.html": "/landingpage-2/index.html",
-    "static/css/main.3148c723.chunk.css.map": "/landingpage-2/static/css/main.3148c723.chunk.css.map",
+    "static/css/main.ff4a0530.chunk.css.map": "/landingpage-2/static/css/main.ff4a0530.chunk.css.map",
     "static/js/2.d179fcb2.chunk.js.LICENSE.txt": "/landingpage-2/static/js/2.d179fcb2.chunk.js.LICENSE.txt",
     "static/media/architecturals.f5bc4ce6.jpeg": "/landingpage-2/static/media/architecturals.f5bc4ce6.jpeg",
-    "static/media/arrow.0cd78ab6.svg": "/landingpage-2/static/media/arrow.0cd78ab6.svg",
+    "static/media/arrow.53f95215.svg": "/landingpage-2/static/media/arrow.53f95215.svg",
     "static/media/avi.01f6517d.jpeg": "/landingpage-2/static/media/avi.01f6517d.jpeg",
     "static/media/buildings.a3a997a1.jpeg": "/landingpage-2/static/media/buildings.a3a997a1.jpeg",
-    "static/media/computer.a443bddd.svg": "/landingpage-2/static/media/computer.a443bddd.svg",
-    "static/media/diagram.a6fbecfa.svg": "/landingpage-2/static/media/diagram.a6fbecfa.svg",
+    "static/media/computer.73101f00.svg": "/landingpage-2/static/media/computer.73101f00.svg",
+    "static/media/diagram.71972818.svg": "/landingpage-2/static/media/diagram.71972818.svg",
     "static/media/discord.30723243.svg": "/landingpage-2/static/media/discord.30723243.svg",
     "static/media/facebook.4d446026.svg": "/landingpage-2/static/media/facebook.4d446026.svg",
     "static/media/filming.b328ce52.jpeg": "/landingpage-2/static/media/filming.b328ce52.jpeg",
@@ -31,7 +31,7 @@
   "entrypoints": [
     "static/js/runtime-main.57e7bca0.js",
     "static/js/2.d179fcb2.chunk.js",
-    "static/css/main.3148c723.chunk.css",
-    "static/js/main.89f5036f.chunk.js"
+    "static/css/main.ff4a0530.chunk.css",
+    "static/js/main.0d11ef75.chunk.js"
   ]
 }
